@@ -1,0 +1,75 @@
+h1 {
+    color: rgb(0, 255, 191);
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.highlight {
+    background-color: gray;
+}
+
+#introduction {
+    font-size: 10px
+}
+
+#box:checked + label {
+    color: green;
+}
+
+/* #page-title:hover {
+    font-size: 300px;
+    color: pink;
+} */
+
+.links:hover {
+color: purple;
+}
+
+button:disabled {
+    color: orange;
+    background: black;
+}
+
+a:visited {
+    background-color: rgb(57, 170, 123);
+}
+
+a {
+    background-color: white;
+}
+
+a:active {
+    color: pink;
+}
+
+P::first-letter {
+    color: red;
+}
+
+P::first-line {
+    color: green;
+}
+
+li::marker {
+    color: green;
+}
+
+p {
+    position: relative;
+ }
+ p::after {
+    content: "";
+    background-color: palegoldenrod;
+    height: 20px;
+    width: 50%;
+    position: absolute;
+    left: 40px;
+    z-index: -1;
+ }
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
