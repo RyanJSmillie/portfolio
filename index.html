@@ -1,40 +1,76 @@
 <!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
 <html>
     <head>
-        <title>Ryan Smillie!</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title >Ryan Smillie!</title>
     </head>
        <body>
            <header>
-           <h1>Ryan Smillie</h1>
-           <h2>The First Bite is with the Eye.</h2>
-           <img src="./images/Screenshot 2022-02-21 at 19.05.08.png" alt="Profile Picture" />
+           <h1 id="page-title">Ryan Smillie</h1>
+           </header>
+           <div id="introduction">
+           <h2 class="highlight">The First Bite is with the Eye.</h2>
+        </div>
+    
            <nav>
-               <a href="./contact.html" target "_blank">Contact Me</a>
-               <a href="./projects.html" target "_blank">Projects</a>
+               <a class="links" href="./contact.html" target "_blank">Contact Me</a>
+               <a class="links" href="./projects.html" target "_blank">Projects</a>
            </nav>
         </header>
            <br /><hr />
            <main>
+
+               <div id="about-me">
            <h3>About Me.</h3>
+           <img class="profile-pic" src="./images/Screenshot 2022-02-21 at 19.05.08.png" alt="Profile Picture" />
+           <div>
            <p>Hello! My name is Ryan, I'm 28 and I live in Manchester, UK.</p>
            <p>I did a module on coding whilst completing my Maths degree at Northumbria University in Newcastle. 
                It's something that I've always been interested in returning to and now I fancy a career change!</p>
-            <figure>
+            <p>test</p>
+               <p>Third Paragraph</p>
+        </div>
+
+        <div id=“socials”>
+            <h3>My Socials</h3>
+                <p>Follow me on <a href="https://twitter.com/RyanJCodes">Twitter</a>!</p>
+              <p> Follow me on <a href="">Instagram</a>!</p>
+                <input type="checkbox" id="box" name="test-checkbox" checked>
+                <label for="test-checkbox">Check this box for some reason</label>
+                <button disabled>You can't press this...</button>
+        </div>
+
+        <!-- <div class="div-element">one</div>
+        <div class="div-element">two</div>
+        <div class="div-element">three</div>
+        <span class="span-element">one</span>
+        <span class="span-element">two</span>
+        <span class="span-element">three</span> -->
+<main>
+        <div class="parent">
+            <figure class="child">
                 <img src="./images/IMG_6952.jpg" alt="Barcelona Holiday">
                 <br />
                 <figcaption>My girlfriend Sophie & I on holiday in Barcelona</figcaption>
             </figure>
-            <figure>
+            <figure class="child">
                 <img src="./images/Glastonbury.png" alt="Glastonbury Festival">
                 <br />
                 <figcaption>A trip to Glastonbury Festival in 2019</figcaption>
             </figure>
-            <figure>
+            <figure class="child">
                 <img src="./images/MCFC.jpeg" alt="Manchester City">
                 <br />
                 <figcaption>A long-time supporter of Manchester City</figcaption>
             </figure>
-            </main>
+   </div>
+   </main>
             <header>
                 <h2>Qualities.</h2>
             </header>
